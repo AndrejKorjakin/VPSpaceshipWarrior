@@ -21,7 +21,7 @@ namespace Spaceship_Warrior
         public int Lives = 1;
         public int Speed;
         public int ProjectileDamage = 1;
-        public float fireCooldown = 400;
+        public float fireCooldown = 500;
 
         public virtual Projectile Fire()
         {
