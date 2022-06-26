@@ -50,10 +50,11 @@
             this.HighScoreLblText = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.WonPanel = new System.Windows.Forms.Panel();
-            this.WonLbl = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.QuitBtnWon = new System.Windows.Forms.Button();
+            this.WonLbl = new System.Windows.Forms.Label();
             this.RestartBtnWon = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.PauseLbl = new System.Windows.Forms.Label();
             this.PausePanel.SuspendLayout();
             this.EndPanel.SuspendLayout();
             this.HighScoresPanel.SuspendLayout();
@@ -93,6 +94,7 @@
             // PausePanel
             // 
             this.PausePanel.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.PausePanel.Controls.Add(this.PauseLbl);
             this.PausePanel.Controls.Add(this.RestartBtn);
             this.PausePanel.Controls.Add(this.QuitBtn);
             this.PausePanel.Controls.Add(this.ResumeBtn);
@@ -105,7 +107,7 @@
             // 
             this.RestartBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.RestartBtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.RestartBtn.Location = new System.Drawing.Point(147, 141);
+            this.RestartBtn.Location = new System.Drawing.Point(148, 164);
             this.RestartBtn.Name = "RestartBtn";
             this.RestartBtn.Size = new System.Drawing.Size(149, 41);
             this.RestartBtn.TabIndex = 2;
@@ -117,7 +119,7 @@
             // 
             this.QuitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.QuitBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.QuitBtn.Location = new System.Drawing.Point(147, 213);
+            this.QuitBtn.Location = new System.Drawing.Point(148, 242);
             this.QuitBtn.Name = "QuitBtn";
             this.QuitBtn.Size = new System.Drawing.Size(149, 41);
             this.QuitBtn.TabIndex = 1;
@@ -129,7 +131,7 @@
             // 
             this.ResumeBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ResumeBtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ResumeBtn.Location = new System.Drawing.Point(147, 65);
+            this.ResumeBtn.Location = new System.Drawing.Point(148, 84);
             this.ResumeBtn.Name = "ResumeBtn";
             this.ResumeBtn.Size = new System.Drawing.Size(149, 41);
             this.ResumeBtn.TabIndex = 0;
@@ -213,7 +215,7 @@
             this.HighScoresPanel.Controls.Add(this.HighScoreLb);
             this.HighScoresPanel.Controls.Add(this.HighScoreLblText);
             this.HighScoresPanel.Controls.Add(this.label1);
-            this.HighScoresPanel.Location = new System.Drawing.Point(732, 55);
+            this.HighScoresPanel.Location = new System.Drawing.Point(541, 22);
             this.HighScoresPanel.Name = "HighScoresPanel";
             this.HighScoresPanel.Size = new System.Drawing.Size(327, 378);
             this.HighScoresPanel.TabIndex = 3;
@@ -271,6 +273,18 @@
             this.WonPanel.Size = new System.Drawing.Size(467, 340);
             this.WonPanel.TabIndex = 4;
             // 
+            // QuitBtnWon
+            // 
+            this.QuitBtnWon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.QuitBtnWon.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.QuitBtnWon.Location = new System.Drawing.Point(144, 282);
+            this.QuitBtnWon.Name = "QuitBtnWon";
+            this.QuitBtnWon.Size = new System.Drawing.Size(149, 41);
+            this.QuitBtnWon.TabIndex = 6;
+            this.QuitBtnWon.Text = "Quit";
+            this.QuitBtnWon.UseVisualStyleBackColor = false;
+            this.QuitBtnWon.Click += new System.EventHandler(this.QuitBtnWon_Click);
+            // 
             // WonLbl
             // 
             this.WonLbl.AutoSize = true;
@@ -281,6 +295,18 @@
             this.WonLbl.Size = new System.Drawing.Size(158, 25);
             this.WonLbl.TabIndex = 1;
             this.WonLbl.Text = "With the score of";
+            // 
+            // RestartBtnWon
+            // 
+            this.RestartBtnWon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.RestartBtnWon.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.RestartBtnWon.Location = new System.Drawing.Point(144, 204);
+            this.RestartBtnWon.Name = "RestartBtnWon";
+            this.RestartBtnWon.Size = new System.Drawing.Size(149, 41);
+            this.RestartBtnWon.TabIndex = 7;
+            this.RestartBtnWon.Text = "Restart";
+            this.RestartBtnWon.UseVisualStyleBackColor = false;
+            this.RestartBtnWon.Click += new System.EventHandler(this.RestartBtnWon_Click);
             // 
             // label3
             // 
@@ -294,29 +320,16 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "You have WON!";
             // 
-            // QuitBtnWon
+            // PauseLbl
             // 
-            this.QuitBtnWon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.QuitBtnWon.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.QuitBtnWon.Location = new System.Drawing.Point(144, 282);
-            this.QuitBtnWon.Name = "QuitBtnWon";
-            this.QuitBtnWon.Size = new System.Drawing.Size(149, 41);
-            this.QuitBtnWon.TabIndex = 6;
-            this.QuitBtnWon.Text = "Quit";
-            this.QuitBtnWon.UseVisualStyleBackColor = false;
-            this.QuitBtnWon.Click += new System.EventHandler(this.QuitBtnWon_Click);
-            // 
-            // RestartBtnWon
-            // 
-            this.RestartBtnWon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.RestartBtnWon.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.RestartBtnWon.Location = new System.Drawing.Point(144, 204);
-            this.RestartBtnWon.Name = "RestartBtnWon";
-            this.RestartBtnWon.Size = new System.Drawing.Size(149, 41);
-            this.RestartBtnWon.TabIndex = 7;
-            this.RestartBtnWon.Text = "Restart";
-            this.RestartBtnWon.UseVisualStyleBackColor = false;
-            this.RestartBtnWon.Click += new System.EventHandler(this.RestartBtnWon_Click);
+            this.PauseLbl.AutoSize = true;
+            this.PauseLbl.BackColor = System.Drawing.Color.Transparent;
+            this.PauseLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PauseLbl.Location = new System.Drawing.Point(165, 13);
+            this.PauseLbl.Name = "PauseLbl";
+            this.PauseLbl.Size = new System.Drawing.Size(106, 31);
+            this.PauseLbl.TabIndex = 3;
+            this.PauseLbl.Text = "Paused";
             // 
             // Form1
             // 
@@ -336,6 +349,7 @@
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
             this.PausePanel.ResumeLayout(false);
+            this.PausePanel.PerformLayout();
             this.EndPanel.ResumeLayout(false);
             this.EndPanel.PerformLayout();
             this.HighScoresPanel.ResumeLayout(false);
@@ -374,6 +388,7 @@
         private System.Windows.Forms.Label WonLbl;
         private System.Windows.Forms.Button QuitBtnWon;
         private System.Windows.Forms.Button RestartBtnWon;
+        private System.Windows.Forms.Label PauseLbl;
     }
 }
 
