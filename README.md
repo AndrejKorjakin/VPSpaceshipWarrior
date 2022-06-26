@@ -104,7 +104,7 @@ Spaceship Warrior е апликација која што наликува на 
 
 ![Screenshot_2](https://user-images.githubusercontent.com/61660338/175831775-205193a9-c5e4-4793-afe2-12f69025c4fd.png)
 Слика 3. Играта е завршена
-
+- Со притискање на "High Scores" копчето ги гледаме сите освоени поени од игрите во една сесија.
 
 ![Screenshot_3](https://user-images.githubusercontent.com/61660338/175831789-c86d75bc-6af1-4713-bc79-6f3513ab3443.png)
 Слика 4. Чување на High Scores за секоја игра која што се игра во една сесија пред да се исклучи играта.
