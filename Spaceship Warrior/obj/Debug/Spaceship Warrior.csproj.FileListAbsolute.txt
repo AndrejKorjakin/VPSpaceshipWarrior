@@ -1,0 +1,15 @@
+F:\FAKULTET\Визуелно програмирање\Proektna\Spaceship Warrior\Spaceship Warrior\obj\Debug\Spaceship Warrior.csprojAssemblyReference.cache
+F:\FAKULTET\Визуелно програмирање\Proektna\Spaceship Warrior\Spaceship Warrior\obj\Debug\Spaceship_Warrior.Form1.resources
+F:\FAKULTET\Визуелно програмирање\Proektna\Spaceship Warrior\Spaceship Warrior\obj\Debug\Spaceship_Warrior.Properties.Resources.resources
+F:\FAKULTET\Визуелно програмирање\Proektna\Spaceship Warrior\Spaceship Warrior\obj\Debug\Spaceship Warrior.csproj.GenerateResource.cache
+F:\FAKULTET\Визуелно програмирање\Proektna\Spaceship Warrior\Spaceship Warrior\obj\Debug\Spaceship Warrior.csproj.CoreCompileInputs.cache
+F:\FAKULTET\Визуелно програмирање\Proektna\Spaceship Warrior\Spaceship Warrior\bin\Debug\Spaceship Warrior.exe.config
+F:\FAKULTET\Визуелно програмирање\Proektna\Spaceship Warrior\Spaceship Warrior\bin\Debug\Spaceship Warrior.exe
+F:\FAKULTET\Визуелно програмирање\Proektna\Spaceship Warrior\Spaceship Warrior\bin\Debug\Spaceship Warrior.pdb
+F:\FAKULTET\Визуелно програмирање\Proektna\Spaceship Warrior\Spaceship Warrior\obj\Debug\Spaceship Warrior.exe
+F:\FAKULTET\Визуелно програмирање\Proektna\Spaceship Warrior\Spaceship Warrior\obj\Debug\Spaceship Warrior.pdb
+F:\FAKULTET\Визуелно програмирање\Proektna\Spaceship Warrior\Spaceship Warrior\bin\Debug\Interop.WMPLib.dll
+F:\FAKULTET\Визуелно програмирање\Proektna\Spaceship Warrior\Spaceship Warrior\bin\Debug\AxInterop.WMPLib.dll
+F:\FAKULTET\Визуелно програмирање\Proektna\Spaceship Warrior\Spaceship Warrior\obj\Debug\Interop.WMPLib.dll
+F:\FAKULTET\Визуелно програмирање\Proektna\Spaceship Warrior\Spaceship Warrior\obj\Debug\AxInterop.WMPLib.dll
+F:\FAKULTET\Визуелно програмирање\Proektna\Spaceship Warrior\Spaceship Warrior\obj\Debug\Spaceship Warrior.csproj.ResolveComReference.cache
